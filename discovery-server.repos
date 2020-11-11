@@ -5,7 +5,7 @@ repositories:
         version: master
     eProsima/Fast-RTPS:
         type: git
-        url: https://github.com/eProsima/Fast-RTPS.git
+        url: https://github.com/mariogrdn/Fast-DDS.git
         version: master 
     eProsima/Discovery-Server:
         type: git
