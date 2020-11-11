@@ -255,9 +255,9 @@ void DSManager::runEvents(
     // Wait for user shutdown
     if (!auto_shutdown)
     {
-        out << "\n### Discovery Server is running, press any key to quit ###" << std::endl;
+        out << "\n### Discovery Server is running indefinitely ###" << std::endl;
         out.flush();
-        in.ignore();
+        in.ignore(std::numeric_limits<std::streamsize>::max());
     }
 }
 
