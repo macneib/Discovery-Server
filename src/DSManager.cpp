@@ -258,6 +258,7 @@ void DSManager::runEvents(
         out << "\n### Discovery Server is running indefinitely ###" << std::endl;
         out.flush();
         in.ignore(std::numeric_limits<std::streamsize>::max());
+        while(true);
      }
 }
 
