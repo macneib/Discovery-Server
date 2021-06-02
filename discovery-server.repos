@@ -5,11 +5,11 @@ repositories:
         version: master
     eProsima/Fast-RTPS:
         type: git
-        url: https://github.com/mariogrdn/Fast-DDS.git
+        url: https://github.com/macneib/Fast-DDS.git
         version: master 
     eProsima/Discovery-Server:
         type: git
-        url: https://github.com/mariogrdn/Discovery-Server.git
+        url: https://github.com/macneib/Discovery-Server.git
         version: master 
     leethomason/tinyxml2:
         type: git
